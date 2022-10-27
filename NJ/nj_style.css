@@ -4,6 +4,8 @@ body {
     background-position: fixed;
  }
 
+
+
  .box {
     width: 95%;
     height: 300px;
@@ -16,6 +18,7 @@ body {
  }
 
  .dijbox {
+    float: left;
     background-color: black;
     opacity: 0.5;
     border-radius: 10px;
@@ -25,9 +28,18 @@ body {
     margin-left: 50px;
  }
 
- 
+.megegybox {
+    float: left;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 10px;
+    height: 350px;
+    width: 1260px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
 
- .jobbkep {
+ #jobbkep {
     height: 250px;
     width: 300px;
     float: right;
@@ -36,26 +48,30 @@ body {
     border-radius: 50px;
  }
 
-/* .overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
-    transition: 0.5s ease;
-    background-color: white;
-    opacity: 0;
+ #balkep {
+    height: 250px;
+    width: 300px;
+    float: left;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-radius: 50px;
+ }
+
+.clear {
+    clear: both;
 }
 
-.box:hover .overlay {
-    opacity: 1;
-}
-
-.hovertext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-} */
+ .hatmegegyboXD {
+    float: left;
+    width: 95%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.5;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+ }
 
 .text {
     color: white;
@@ -63,27 +79,56 @@ body {
     padding-left: 60px;
     width: 75%;
     font-size: 25px;
+    text-align: justify;
+}
+
+.kisszoveg {
+    color: white;
+    padding-top: 40px;
+    padding-left: 60px;
+    font-size: 25px;
+    text-align: justify;
+    width: 1150px;
 }
 
 h1 {
     color: white;
     height: 0px;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 60px;
     font-size: 50px;
 }
 
 .dijak {
-    /* color: white; */
-    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 60px;
     width: 75%;
     font-size: 25px;
-    margin
 }
 
 .dij {
     color: white;
 }
 
+#h1dij {
+    display: inline-block;
+    padding-top: 0;
+}
 
+#hoveres {
+    position: absolute;
+    color: black;
+    top: 18%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    /* ELTOLÁS */
+    font-size: 50px;
+    text-align: center;
+    opacity: 0;
+}
+
+#hoveres:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+
+}
