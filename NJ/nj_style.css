@@ -121,7 +121,8 @@ h1 {
 #hoveres {
     position: absolute;
     color: black;
-    top: 18%;
+    background-color: rgba(255, 255, 255, 0.24);
+    top: 25%;
     left: 88%;
     transform: translate(-50%, -50%);
     /* ELTOLÁS */
