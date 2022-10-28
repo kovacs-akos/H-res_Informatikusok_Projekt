@@ -5,7 +5,7 @@ body {
  }
 
 .container {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
  .box {
@@ -41,7 +41,7 @@ body {
     margin-top: 20px;
 }
 
- #jobbkep {
+ .jobbkep {
     height: 250px;
     width: 300px;
     float: right;
@@ -73,6 +73,7 @@ body {
     margin-top: 50px;
     margin-left: 50px;
     border-radius: 10px;
+    margin-bottom: 20px;
  }
 
 .text {
@@ -134,3 +135,57 @@ h1 {
     transition: 0.5s ease;
 
 }
+
+.menu {
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.5;
+    float: right;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    height: ;
+    text-align: center;
+    float: right;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    padding-right: 40px;
+    /* border-right: 2px solid white; */
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.lablec {
+    width: 1260px;
+    background-color: black;
+    opacity: 0.5;
+    height: 70px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.lablec-szoveg{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding-top: 4px;
+    margin-bottom: 0;
+}
+
+ 
